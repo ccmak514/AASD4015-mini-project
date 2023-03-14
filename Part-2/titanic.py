@@ -22,8 +22,9 @@ import pickle
 st.title('PREDICT YOUR SURVIVAL ON THE TITANIC USING DEEP NEURAL NETWORK')
 #img = Image.open('titanic.jpg')
 #st.image(img, width=600, channels='RGB', caption=None)
-
-df = pd.read_csv('titanic.csv')
+url = 'https://drive.google.com/file/d/1OFeFV_jGdt41hJ_6ukfhdBtvGmIrmUoe/view?usp=share_link'
+url = 'https://drive.google.com/uc?id=' + url.split('/')[-2]
+df = pd.read_csv(url)
 # drop the name columns
 df = df.drop(columns='Name')
 # encode the sec column
