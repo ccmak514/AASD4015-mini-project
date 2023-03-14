@@ -20,8 +20,8 @@ import pickle
 
 
 st.title('PREDICT YOUR SURVIVAL ON THE TITANIC USING DEEP NEURAL NETWORK')
-img = Image.open('titanic.jpg')
-st.image(img, width=600, channels='RGB', caption=None)
+#img = Image.open('titanic.jpg')
+#st.image(img, width=600, channels='RGB', caption=None)
 
 df = pd.read_csv('titanic.csv')
 # drop the name columns
