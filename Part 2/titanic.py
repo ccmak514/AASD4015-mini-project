@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """
+Taken from https://github.com/KawanaS/Machine-Learning-Web-App-Predicts-Survival-On-The-Titanic/blob/main/titanic.py
 Created on Sat May 14 18:54:50 2022
 @author: hp
 """
