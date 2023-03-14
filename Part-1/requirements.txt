@@ -1,0 +1,7 @@
+# newest packages as of 2023-03-03
+pandas==1.5.3 # Plotly express requires pandas to be installed, but Plotly doesn't install it as a dependency
+plotly==5.13.1  # used to demonstrate that JS content is correctly rendered
+pillow==9.4.0  # used to load image data
+matplotlib==3.7.0 # used to show an image
+nbconvert==7.2.9  # used to convert a notebook to (e.g.) an HTML file
+ipykernel==6.21.2  # used to set a notebook environment
